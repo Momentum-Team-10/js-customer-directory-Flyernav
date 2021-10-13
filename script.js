@@ -21,14 +21,12 @@ for (let customer of customers) {
     <p><h4>${customer.name.last}</h4></p>
     <p>${customer.location.street.number}</p>
     <p>${customer.location.street.name}</p>
-    <p>${customer.city}</p>
-    <p>${customer.state}</p>
-    <p>${customer.location.last}</p>
-
+    <p>${customer.location.city}</p>
+    <p>${customer.location.state}</p>
+    <p>${customer.location.country}</p>
     <p>${customer.email}</p>
-    <p>${customer.location}</p>
-    <p>${customer.dob}</p>
-    <p>${customer.registered}</p>
+    <p>${customer.dob.date}</p>
+    <p>${customer.registered.date}</p>
 `;
 
 
